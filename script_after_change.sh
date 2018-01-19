@@ -1,3 +1,5 @@
+unset http_proxy
+unset https_proxy
 ./composer.sh stop
 ./composer.sh
 composer archive create -t dir -n .
